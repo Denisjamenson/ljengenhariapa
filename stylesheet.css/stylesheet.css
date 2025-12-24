@@ -18,8 +18,13 @@
   max-width: 1300px;
   width: auto;
   height: 215px;
-  margin: auto;
-  background-color: rgb(253, 251, 251);
+  margin: auto;;
+  background-image: url("."); 
+  background-size: cover;          /* Redimensiona a imagem para cobrir toda a área */
+  background-position: center;     /* Centraliza a imagem horizontal e verticalmente */
+  background-repeat: no-repeat;    /* Evita que a imagem se repita */
+  width: 100%;                     /* Garante a largura total */
+  height: 100%;                   /* Define a altura como 100% da altura da tela (Viewport Height) */
 }
 
 .container {
@@ -29,7 +34,7 @@
   display: flex;
   border-width: 5px;
   border-style: ridge;
-  Border-color: #3a29fa;
+  Border-color: #240fe4;
   align-items: center;
   justify-content: center;
   
@@ -349,7 +354,7 @@ span:before
 
 .conteiner-conteudo {
   list-style: none;
-  color: #0d0df3;
+  color: #ec1e29;
   text-shadow: 1px -1px 1px rgba(0, 0, 0, 0.5);
   font-size: 1.2em;
   display: flex;
@@ -375,8 +380,8 @@ span:before
   list-style: none;
   border-width: 8px;
   border-style: double;
-  Border-color: #100792;
-
+  Border-color: #240fe4;
+  color: #240fe4;
 }
 .titulo1::before {
   display: grid;
@@ -386,7 +391,8 @@ span:before
   height: 100%;
   background-image: url("../img/quem somos.gif");
   background-size: 100% 100%;
-  opacity: 0.4;
+  filter: grayscale(10%);
+  opacity: 0.5;
   z-index: -1;
 }
 
@@ -394,10 +400,10 @@ span:before
   position: relative;
   height: 37vh;
   list-style: none;
-  color: #0d0df3;
+  color: #240fe4;
   border-width: 8px;
   border-style: double;
-  Border-color: #100792;
+  Border-color: #240fe4;
 }
 
 .titulo2::before {
@@ -409,7 +415,7 @@ span:before
   background-image: url("../img/missão.gif");
   background-size: 100% 100%;
   filter: grayscale(10%);
-  opacity: 0.4;
+  opacity: 0.5;
   z-index: -1;
 }
 
@@ -417,10 +423,10 @@ span:before
   position: relative;
   height: 37vh;
   list-style: none;
-  color: #0d0df3;
+  color: #240fe4;
   border-width: 8px;
   border-style: double;
-  Border-color: #100792;
+  Border-color: #240fe4;
 }
 
 .titulo3::before {
@@ -432,7 +438,7 @@ span:before
   background-image: url("../img/valores.gif");
   background-size: 100% 100%;
   filter: grayscale(10%);
-  opacity: 0.4;
+  opacity: 0.5;
   z-index: -1;
 }
 
@@ -441,10 +447,10 @@ span:before
   height: 38vh;
   position: relative;
   list-style: none;
-  color: #0d0df3;
+  color: #240fe4;;
   border-width: 8px;
   border-style: double;
-  Border-color: #100792;
+  Border-color: #240fe4;
 }
 
 .titulo4::before {
@@ -456,14 +462,14 @@ span:before
   background-image: url("../img/projetos eletricos.gif");
   background-size: 100% 100%;
   filter: grayscale(10%);
-  opacity: 0.2;
+  opacity: 0.4;
   z-index: -1;
 }
 
 .paragrafo {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  color: #0f0f0f;
+  color: #0e0d0d;
   list-style: none;
   font-size: 1.4em;
   justify-content: center;
@@ -472,7 +478,7 @@ span:before
 .paragafo1 {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  color: #0f0f0f;
+  color: #0e0d0d;
   list-style: none;
   font-size: 1.4em;
   justify-content: center;
@@ -481,7 +487,7 @@ span:before
 .paragrafos2 {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  color: #0f0f0f;
+  color: #0e0d0d;
   list-style: none;
   font-size: 1.4em;
   justify-content: center;
@@ -490,7 +496,7 @@ span:before
 .paragrafos3 {
   font-family: Arial, Helvetica, sans-serif;
   display: grid;
-  color: #0f0f0f;
+  color: #0e0d0d;
   list-style: none;
   font-size: 1.2em;
   justify-content: center;
@@ -518,10 +524,11 @@ span:before
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("../img/foto\ corpo\ pagprojetos.png");
+  background-image: url("../img/fundo projetos.gif");
   background-size: 100% 100%;
   filter: grayscale(10%);
-  opacity: 0.2;
+  opacity: 0.3;
+  z-index: -1;
 }
 
 
@@ -683,13 +690,45 @@ span:before
   background-image: url("../img/fundo quadra.jpeg");
   background-size: 100% 100%;
   filter: grayscale(10%);
-  opacity: 0.3;
+  opacity: 0.4;
   z-index: -1;
 }
 
 .textovideo{
   display: flex;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Arial, Helvetica, sans-serif';
+  color: #0f0f0f;
+  justify-content: center;
+}
+
+/* seção video PORTO ALEGRE */
+
+.videoportoalegre{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.videoportoalegre::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo porto alegre.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.textovideoportoalegre{
+  display: flex;
+  font-family: 'Arial, Helvetica, sans-serif';
   color: #0f0f0f;
   justify-content: center;
 }
@@ -3245,7 +3284,7 @@ span:before
   
   .cabeça {
     display: grid;
-    max-width: 1300px;
+    max-width: auto;
     width: auto;
     height: 215px;
     margin: auto;
@@ -3609,7 +3648,7 @@ span:before
   .titulo1 {
     display: grid;
     position: relative;
-    height: 50vh;
+    height: 90vh;
     list-style: none;
     border-width: 8px;
     border-style: double;
@@ -3624,13 +3663,14 @@ span:before
     height: 100%;
     background-image: url("../img/quem somos.gif");
     background-size: 100% 100%;
+    filter: grayscale(10%);
     opacity: 0.4;
     z-index: -1;
   }
   
   .titulo2{
     position: relative;
-    height: 25vh;
+    height: 50vh;
     list-style: none;
     color: #0d0df3;
     border-width: 8px;
@@ -3646,14 +3686,14 @@ span:before
     height: 100%;
     background-image: url("../img/missão.gif");
     background-size: 100% 100%;
-    filter: grayscale(100%);
+    filter: grayscale(10%);
     opacity: 0.4;
     z-index: -1;
   }
   
   .titulo3 {
     position: relative;
-    height: 37vh;
+    height: 45vh;
     list-style: none;
     color: #0d0df3;
     border-width: 8px;
@@ -3669,14 +3709,14 @@ span:before
     height: 100%;
     background-image: url("../img/valores.gif");
     background-size: 100% 100%;
-    filter: grayscale(100%);
+    filter: grayscale(10%);
     opacity: 0.4;
     z-index: -1;
   }
   
   .titulo4 {
     display: grid;
-    height: 38vh;
+    height: 45vh;
     position: relative;
     list-style: none;
     color: #0d0df3;
@@ -3703,7 +3743,7 @@ span:before
     display: flex;
     color: #0f0f0f;
     list-style: none;
-    font-size: 1.4em;
+    font-size: 1.3em;
     justify-content: center;
   }
   
@@ -3770,8 +3810,8 @@ span:before
   /* FOTO QUADRA1 */
   #semarituba1{
        display: flex;
-       width:270px;
-       height:180px; 
+       width:150px;
+       height:100px; 
        border-radius:50%;
        box-shadow:  14px 11px #0000008c;
        border-radius: 10px;
@@ -4487,7 +4527,7 @@ span:before
   position: absolute;
   width: 100%;
   height: 100%;
-  background-image: url("../img/foto\ corpo\ pagprojetos.png");
+  background-image:url("../img/fundo projetos.gif");
   background-size: 100% 100%;
   filter: grayscale(10%);
   opacity: 0.2;
@@ -4788,7 +4828,7 @@ span:before
     display: grid;
     max-width: 800px;
     width: auto;
-    height: 220px;
+    height: 170px;
     margin: auto;
     
   }
@@ -4849,8 +4889,8 @@ span:before
     content: "";
               background-image: conic-gradient(#f52b08 20deg,
                       transparent 120deg);
-              width: 150%;
-              height: 150%;
+              width: 125%;
+              height: 125%;
               position: absolute;
               animation: rotate 4s linear infinite;
   }
@@ -5219,7 +5259,7 @@ span:before
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url("../img/foto\ corpo\ pagprojetos.png");
+    background-image:url("../img/fundo projetos.gif");
     background-size: 100% 100%;
     filter: grayscale(10%);
     opacity: 0.2;
@@ -5400,6 +5440,48 @@ span:before
     width: 400px;
     height: 200px;
   }
+
+/* seção video PORTO ALEGRE */
+
+.videoportoalegre{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.videoportoalegre::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo porto alegre.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.textovideoportoalegre{
+  display: flex;
+  font-family: 'Arial, Helvetica, sans-serif';
+  color: #0f0f0f;
+  justify-content: center;
+  text-decoration: underline;
+  padding-top: 1%;
+  font-size: 0.90em;
+  color: rgb(3, 2, 17);
+}
+
+
+#video{
+  width: 400px;
+  height: 200px;
+}
   
   /*INICIO FOOTER*/
 
@@ -5518,9 +5600,9 @@ span:before
   
   .cabeça {
     display: grid;
-    max-width: 800px;
+    max-width: auto;
     width: auto;
-    height: 220px;
+    height: 180px;
     margin: auto;
     
   }
@@ -5951,7 +6033,7 @@ span:before
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url("../img/foto\ corpo\ pagprojetos.png");
+    background-image:url("../img/fundo projetos.gif");
     background-size: 100% 100%;
     filter: grayscale(10%);
     opacity: 0.2;
@@ -6120,11 +6202,14 @@ span:before
   }
   
   .textovideo{
-    display: flex;
-    font-family: 'Courier New', Courier, monospace;
-    color: #160808;
-    justify-content: center;
-    font-size: 0.70em;
+  display: flex;
+  font-family: 'Arial, Helvetica, sans-serif';
+  color: #0f0f0f;
+  justify-content: center;
+  text-decoration: underline;
+  padding-top: 3%;
+  font-size: ;
+  color: rgb(0, 0, 3);
   }
   
 
@@ -6132,6 +6217,48 @@ span:before
     width: 400px;
     height: 200px;
   }
+
+  /* seção video PORTO ALEGRE */
+
+.videoportoalegre{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.videoportoalegre::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo porto alegre.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.textovideoportoalegre{
+  display: flex;
+  font-family: 'Arial, Helvetica, sans-serif';
+  color: #0f0f0f;
+  justify-content: center;
+  text-decoration: underline;
+  padding-top: 1%;
+  font-size: 0.90em;
+  color: rgb(0, 0, 2);
+}
+
+
+#video{
+  width: 400px;
+  height: 200px;
+}
   
   /*INICIO FOOTER*/
 
@@ -6250,9 +6377,9 @@ span:before
   
   .cabeça {
     display: grid;
-    max-width: 300px;
+    max-width: auto;
     width: auto;
-    height: 150px;
+    height: 125px;
     margin: auto;
     
   }
@@ -6683,7 +6810,7 @@ span:before
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url("../img/foto\ corpo\ pagprojetos.png");
+    background-image:url("../img/fundo projetos.gif");
     background-size: 100% 100%;
     filter: grayscale(10%);
     opacity: 0.2;
@@ -6864,6 +6991,48 @@ span:before
     width: 100%;
     height: 100%;
   }
+
+  /* seção video PORTO ALEGRE */
+
+.videoportoalegre{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  border-width: 4px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.videoportoalegre::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo porto alegre.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.textovideoportoalegre{
+  display: flex;
+  font-family: 'Arial, Helvetica, sans-serif';
+  color: #0f0f0f;
+  justify-content: center;
+  text-decoration: underline;
+  padding-top: 1%;
+  font-size: 0.80em;
+  color: rgb(3, 2, 17);
+}
+
+
+#video{
+  width: 400px;
+  height: 200px;
+}
   
   /*INICIO FOOTER*/
 
