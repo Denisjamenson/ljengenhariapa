@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 .cabeça {
   display: grid;
   max-width: 1300px;
@@ -352,6 +351,44 @@ span:before
     13px -13px 1px rgba(0, 0, 0, 0.5);
 }
 
+/*inicio video feliz natal*/
+.feliznatal{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.feliznatal::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo quadra.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.textofeliznatal{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0f0f0f;
+  justify-content: center;
+  font-size:auto;
+}
+
+.feliznatal{
+  width: 100%;
+  height: 100%;
+}
+
+
 .conteiner-conteudo {
   list-style: none;
   color: #ec1e29;
@@ -376,7 +413,7 @@ span:before
 .titulo1 {
   display: grid;
   position: relative;
-  height: 38vh;
+  height: auto;
   list-style: none;
   border-width: 8px;
   border-style: double;
@@ -398,7 +435,7 @@ span:before
 
 .titulo2{
   position: relative;
-  height: 37vh;
+  height: auto;
   list-style: none;
   color: #240fe4;
   border-width: 8px;
@@ -421,7 +458,7 @@ span:before
 
 .titulo3 {
   position: relative;
-  height: 37vh;
+  height: auto;
   list-style: none;
   color: #240fe4;
   border-width: 8px;
@@ -444,7 +481,7 @@ span:before
 
 .titulo4 {
   display: grid;
-  height: 38vh;
+  height: auto;
   position: relative;
   list-style: none;
   color: #240fe4;;
@@ -1195,6 +1232,44 @@ span:before
       13px -13px 1px rgba(0, 0, 0, 0.5);
   }
   
+  /*inicio video feliz natal*/
+
+.feliznatal{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 2px;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.feliznatal::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo quadra.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.textofeliznatal{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0f0f0f;
+  justify-content: center;
+  font-size: auto;
+}
+
+.feliznatal{
+  width:auto;
+  height:auto;
+}
+
   .conteiner-conteudo {
     list-style: none;
     color: #0d0df3;
@@ -1219,7 +1294,7 @@ span:before
   .titulo1 {
     display: grid;
     position: relative;
-    height: 38vh;
+    height: auto;
     list-style: none;
     border-width: 8px;
     border-style: double;
@@ -1240,7 +1315,7 @@ span:before
   
   .titulo2{
     position: relative;
-    height: 37vh;
+    height: auto;
     list-style: none;
     color: #0d0df3;
     border-width: 8px;
@@ -1263,7 +1338,7 @@ span:before
   
   .titulo3 {
     position: relative;
-    height: 37vh;
+    height: auto;
     list-style: none;
     color: #0d0df3;
     border-width: 8px;
@@ -1286,7 +1361,7 @@ span:before
   
   .titulo4 {
     display: grid;
-    height: 38vh;
+    height: auto;
     position: relative;
     list-style: none;
     color: #0d0df3;
@@ -1978,12 +2053,12 @@ span:before
       
       .empresa {
         padding-right: 15%;
-        width: 75%;
+        width: 70%;
         position: relative;
         justify-content: right;
         margin: 1%;
         color: rgb(244, 247, 95);
-        font-size: 2em;
+        font-size: 1.3em;
         font-family: stencil, fantasy;
         font-weight: bold;
         text-align: center;
@@ -2003,18 +2078,55 @@ span:before
           13px -13px 12px rgba(0, 0, 0, 0.55),
           13px -13px 1px rgba(0, 0, 0, 0.5);
       }
-      
-      .conteiner-conteudo {
-        list-style: none;
-        color: #0d0df3;
-        text-shadow: 1px -1px 1px rgba(0, 0, 0, 0.5);
-        font-size: 1.2em;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        justify-content: space-between;
-      }
+ /*inicio video feliz natal*/
+
+.feliznatal{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 2px;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.feliznatal::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo quadra.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.textofeliznatal{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0f0f0f;
+  justify-content: center;
+  font-size: auto;
+}
+
+.feliznatal{
+  width:auto;
+  height:auto;
+}
+    
+ .conteiner-conteudo {
+ list-style: none;
+ color: #0d0df3;
+ text-shadow: 1px -1px 1px rgba(0, 0, 0, 0.5);
+ font-size: 1.1rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ justify-content: space-between;
+  }
       
       .conteudo-texto {
         justify-content: space-around;
@@ -2028,7 +2140,7 @@ span:before
       .titulo1 {
         display: grid;
         position: relative;
-        height: 38vh;
+        height: auto;
         list-style: none;
         border-width: 8px;
         border-style: double;
@@ -2049,7 +2161,7 @@ span:before
       
       .titulo2{
         position: relative;
-        height: 37vh;
+        height: auto;
         list-style: none;
         color: #0d0df3;
         border-width: 8px;
@@ -2072,7 +2184,7 @@ span:before
       
       .titulo3 {
         position: relative;
-        height: 37vh;
+        height: auto;
         list-style: none;
         color: #0d0df3;
         border-width: 8px;
@@ -2095,7 +2207,7 @@ span:before
       
       .titulo4 {
         display: grid;
-        height: 38vh;
+        height: auto;
         position: relative;
         list-style: none;
         color: #0d0df3;
@@ -2122,7 +2234,7 @@ span:before
         display: flex;
         color: #0f0f0f;
         list-style: none;
-        font-size: 1.4em;
+        font-size: 1.1rem;
         justify-content: center;
       }
       
@@ -2131,7 +2243,7 @@ span:before
         display: flex;
         color: #0f0f0f;
         list-style: none;
-        font-size: 1.4em;
+        font-size: 1.1rem;
         justify-content: center;
       }
       
@@ -2140,7 +2252,7 @@ span:before
         display: flex;
         color: #0f0f0f;
         list-style: none;
-        font-size: 1.4em;
+        font-size: 1.1rem;
         justify-content: center;
       }
       
@@ -2149,25 +2261,27 @@ span:before
         display: grid;
         color: #0f0f0f;
         list-style: none;
-        font-size: 1.2em;
+        font-size: 1.1rem;
         justify-content: center;
       }
       
       /* inicio pagina projetos*/
       
       .projetos{
-        display: grid;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #0f0f0f;
-        position: relative;
-        justify-content: center;
-        grid-template-columns: 2fr 2fr;
-        grid-gap:25px;
-        border-width: 8px;
-        border-style: double;
-        Border-color: #100792;
-        padding-top: 15px;
-      }
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f0f0f;
+    position: relative;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-gap:1px;
+    border-width: 8px;
+    border-style: double;
+    Border-color: #100792;
+    padding-top: 15px;
+  }
+  
+
       
       .projetos::before {
         display: grid;
@@ -2460,11 +2574,11 @@ span:before
     
   }
 
- /*
-3 Pra dispositivos que têm uma largura mínima de 640px pixels.
+  /*
+2 Pra dispositivos que têm uma largura mínima de 736px pixels.
 10 Tablets, por exemplo.
  */
- @media(max-width:640px){
+ @media(max-width:736px){
   * {
     margin: 0;
     padding: 0;
@@ -2788,12 +2902,12 @@ span:before
   
   .empresa {
     padding-right: 15%;
-    width: 75%;
+    width: 70%;
     position: relative;
     justify-content: right;
     margin: 1%;
     color: rgb(244, 247, 95);
-    font-size: 2em;
+    font-size: 1.3em;
     font-family: stencil, fantasy;
     font-weight: bold;
     text-align: center;
@@ -2813,18 +2927,55 @@ span:before
       13px -13px 12px rgba(0, 0, 0, 0.55),
       13px -13px 1px rgba(0, 0, 0, 0.5);
   }
-  
-  .conteiner-conteudo {
-    list-style: none;
-    color: #0d0df3;
-    text-shadow: 1px -1px 1px rgba(0, 0, 0, 0.5);
-    font-size: 1.2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    justify-content: space-between;
-  }
+/*inicio video feliz natal*/
+
+.feliznatal{
+display: grid;
+position: relative;
+justify-content: center;
+width: 2px;
+border-width: 8px;
+border-style: double;
+Border-color: #100792;
+}
+
+.feliznatal::before{
+display: grid;
+content: "";
+width: 100%;
+height: 100%;
+position: absolute;
+background-image: url("../img/fundo quadra.jpeg");
+background-size: 100% 100%;
+filter: grayscale(10%);
+opacity: 0.3;
+z-index: -1;
+}
+
+.textofeliznatal{
+display: flex;
+font-family: 'Courier New', Courier, monospace;
+color: #0f0f0f;
+justify-content: center;
+font-size: auto;
+}
+
+.feliznatal{
+width:auto;
+height:auto;
+}
+
+.conteiner-conteudo {
+list-style: none;
+color: #0d0df3;
+text-shadow: 1px -1px 1px rgba(0, 0, 0, 0.5);
+font-size: 1.1rem;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+justify-content: space-between;
+}
   
   .conteudo-texto {
     justify-content: space-around;
@@ -2838,7 +2989,7 @@ span:before
   .titulo1 {
     display: grid;
     position: relative;
-    height: 38vh;
+    height: 45vh;
     list-style: none;
     border-width: 8px;
     border-style: double;
@@ -2859,7 +3010,7 @@ span:before
   
   .titulo2{
     position: relative;
-    height: 37vh;
+    height: auto;
     list-style: none;
     color: #0d0df3;
     border-width: 8px;
@@ -2882,7 +3033,7 @@ span:before
   
   .titulo3 {
     position: relative;
-    height: 37vh;
+    height: auto;
     list-style: none;
     color: #0d0df3;
     border-width: 8px;
@@ -2905,7 +3056,7 @@ span:before
   
   .titulo4 {
     display: grid;
-    height: 38vh;
+    height: auto;
     position: relative;
     list-style: none;
     color: #0d0df3;
@@ -2932,7 +3083,7 @@ span:before
     display: flex;
     color: #0f0f0f;
     list-style: none;
-    font-size: 1.4em;
+    font-size: 1.1rem;
     justify-content: center;
   }
   
@@ -2941,7 +3092,7 @@ span:before
     display: flex;
     color: #0f0f0f;
     list-style: none;
-    font-size: 1.4em;
+    font-size: 1.1rem;
     justify-content: center;
   }
   
@@ -2950,7 +3101,7 @@ span:before
     display: flex;
     color: #0f0f0f;
     list-style: none;
-    font-size: 1.4em;
+    font-size: 1.1rem;
     justify-content: center;
   }
   
@@ -2959,25 +3110,27 @@ span:before
     display: grid;
     color: #0f0f0f;
     list-style: none;
-    font-size: 1.2em;
+    font-size: 1.1rem;
     justify-content: center;
   }
   
   /* inicio pagina projetos*/
   
   .projetos{
-    display: grid;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #0f0f0f;
-    position: relative;
-    justify-content: center;
-    grid-template-columns: 2fr 2fr;
-    grid-gap:25px;
-    border-width: 8px;
-    border-style: double;
-    Border-color: #100792;
-    padding-top: 15px;
-  }
+display: grid;
+font-family: Arial, Helvetica, sans-serif;
+color: #0f0f0f;
+position: relative;
+justify-content: center;
+grid-template-columns: auto;
+grid-gap:1px;
+border-width: 8px;
+border-style: double;
+Border-color: #100792;
+padding-top: 15px;
+}
+
+
   
   .projetos::before {
     display: grid;
@@ -3268,7 +3421,859 @@ span:before
     Border-color: #100792;
   }
 
-}  
+}
+
+ /*
+3 Pra dispositivos que têm uma largura mínima de 640px pixels.
+10 Tablets, por exemplo.
+ */
+@media(max-width:640px){
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.cabeça {
+  display: grid;
+  max-width: auto;
+  width: auto;
+  height: 215px;
+  margin: auto;
+  
+}
+
+.corpoconteudo {
+  max-width: 1300px;
+  width: auto;
+  height: 215px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  background-image: url("../img/header.gif");
+  background-size: 100% 100%;
+  background-position:100% 100%;
+  display: flex;
+  border-width: 5px;
+  border-style: ridge;
+  Border-color: #3a29fa;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.empresalogo{
+    display: flex;
+    background-size: auto;
+    width: 102px;
+    height: 98px;
+    box-shadow: 16px 14px 20px #0000008c;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+  display: flex;
+  width: 95px;
+  height: 90px;
+  justify-content: center;
+  z-index: 1;
+
+}
+
+.logo-pc {
+  display: none;
+}
+
+.logo-mb {
+  display: flex;
+}
+
+
+.empresalogo::before{
+  content: "";
+            background-image: conic-gradient(#ff2a0e 20deg,
+                    transparent 120deg);
+            width: 150%;
+            height: 150%;
+            position: absolute;
+            animation: rotate 4s linear infinite;
+}
+@keyframes rotate {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(-360deg);
+  }
+}
+
+
+  
+/*nome menu*/
+
+/* hamburger */
+.checkbox {
+  display: none;
+}
+
+.ring
+{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:138px;
+  height:138px;
+  background:transparent;
+  border:3px solid #3c3c3c;
+  border-radius:50%;
+  text-align:center;
+  line-height:150px;
+  font-family:sans-serif;
+  font-size:18px;
+  color:#0e0b02;
+  letter-spacing:4px;
+  text-transform:uppercase;
+  text-shadow:0 0 10px #0e0d0d;
+  box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+.ring:before
+{
+  content:'';
+  position:absolute;
+  top:-3px;
+  left:-3px;
+  width:100%;
+  height:100%;
+  border:3px solid transparent;
+  border-top:3px solid #fff000;
+  border-right:3px solid #fff000;
+  border-radius:50%;
+  animation:animateC 2s linear infinite;
+}
+span
+{
+  display:block;
+  position:absolute;
+  top:calc(50% - 2px);
+  left:50%;
+  width:50%;
+  height:4px;
+  background:transparent;
+  transform-origin:left;
+  animation:animate 2s linear infinite;
+}
+span:before
+{
+  content:'';
+  position:absolute;
+  width:16px;
+  height:16px;
+  border-radius:50%;
+  background:#fff000;
+  top:-6px;
+  right:-8px;
+  box-shadow:0 0 20px #fff000;
+}
+@keyframes animateC
+{
+  0%
+  {
+    transform:rotate(0deg);
+  }
+  100%
+  {
+    transform:rotate(360deg);
+  }
+}
+@keyframes animate
+{
+  0%
+  {
+    transform:rotate(45deg);
+  }
+  100%
+  {
+    transform:rotate(405deg);
+  }
+}
+
+.button {
+  position: relative;
+  background-image:url("../img/foto\ menu.jpeg");
+  background-size:100% 100%;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 5vh;
+  right: 5vw;
+  z-index: 2000;
+  box-shadow: 0 1rem 3rem black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.background {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 5.5vh;
+  right: 5.5vw;
+  background-image: radial-gradient(rgb(177, 204, 22), black);
+  z-index: 1000;
+
+  transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.nav {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -60vw;
+  z-index: 1500;
+  opacity: 0;
+  width: 0;
+  transition: all 0.8s;
+}
+
+.list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+
+.item {
+  margin: 1rem;
+  font-size: 36px;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  font-size: 3rem;
+  font-weight: 300;
+  padding: 1rem 2rem;
+  color: rgb(238, 61, 16);
+  text-decoration: none;
+  text-transform: uppercase;
+  background-image:url("../img/logo\ sem\ letreiro.png");
+  background-size: 220%;
+  transition: all 0.4s;
+}
+
+.link:hover,
+.link:active {
+  color: lightgreen;
+  cursor: pointer;
+}
+
+/* functionality */
+.checkbox:checked~.background {
+  transform: scale(80);
+}
+
+.checkbox:checked~.nav {
+  opacity: 1;
+  width: 100%;
+  right: 0;
+}
+
+/* styling hamb ICON */
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon,
+.icon::before,
+.icon::after {
+  width: 3rem;
+  height: 2px;
+  background-color: gray;
+  display: inline-block;
+}
+
+.icon::before,
+.icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  transition: all 0.2s;
+}
+
+.icon::before {
+  top: -0.8rem;
+}
+
+.icon::after {
+  top: 0.8rem;
+}
+
+.button:hover icon:before {
+  top: -1rem;
+}
+
+.button:hover icon::after {
+  top: 1rem;
+}
+
+.checkbox:checked+.button .icon {
+  background-color: transparent;
+}
+
+.checkbox:checked+.button .icon::before {
+  top: 0;
+  transform: rotate(135deg);
+}
+
+.checkbox:checked+.button .icon::after {
+  top: 0;
+  transform: rotate(-135deg);
+}
+
+
+.empresa {
+  padding-right: 15%;
+  width: 75%;
+  position: relative;
+  justify-content: right;
+  margin: 1%;
+  color: rgb(244, 247, 95);
+  font-size: 1.3em;
+  font-family: stencil, fantasy;
+  font-weight: bold;
+  text-align: center;
+  text-shadow:
+    1px -1px 0 #2f5d87,
+    2px -2px 0 #2e5a83,
+    3px -3px 0 #2d5880,
+    4px -4px 0 #2b557c,
+    5px -5px 0 #2a5378,
+    6px -6px 0 #295074,
+    7px -7px 0 #274d71,
+    8px -8px 0 #264b6d,
+    9px -9px 0 #254869,
+    10px -10px 0 #234665,
+    11px -11px 0 #224361,
+    12px -12px 0 #21405e,
+    13px -13px 12px rgba(0, 0, 0, 0.55),
+    13px -13px 1px rgba(0, 0, 0, 0.5);
+}
+
+/*inicio video feliz natal*/
+
+.feliznatal{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 2px;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.feliznatal::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo quadra.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.textofeliznatal{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0f0f0f;
+  justify-content: center;
+  font-size: auto;
+}
+
+.feliznatal{
+  width:auto;
+  height:auto;
+}
+
+.conteiner-conteudo {
+  list-style: none;
+  color: #0d0df3;
+  text-shadow: 1px -1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: space-between;
+}
+
+.conteudo-texto {
+  justify-content: space-around;
+  margin: 5px;
+  padding: 0 10px;
+  text-align: center;
+  font-size: 1em;
+
+}
+/* INICIO DOS PARAGRAFOS*/
+.titulo1 {
+  display: grid;
+  position: relative;
+  height: 110vh;
+  list-style: none;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+
+}
+.titulo1::before {
+  display: grid;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/quem somos.gif");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.titulo2{
+  position: relative;
+  height: 80vh;
+  list-style: none;
+  color: #0d0df3;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.titulo2::before {
+  display: grid;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/missão.gif");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.titulo3 {
+  position: relative;
+  height: 70vh;
+  list-style: none;
+  color: #0d0df3;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.titulo3::before {
+  display: grid;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/valores.gif");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.titulo4 {
+  display: grid;
+  height: 70vh;
+  position: relative;
+  list-style: none;
+  color: #0d0df3;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.titulo4::before {
+  display: grid;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/projetos eletricos.gif");
+  background-size: 100% 100%;
+  filter: grayscale(100%);
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.paragrafo {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  color: #0f0f0f;
+  list-style: none;
+  font-size: 1.3em;
+  justify-content: center;
+}
+
+.paragafo1 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  color: #0f0f0f;
+  list-style: none;
+  font-size: 1.4em;
+  justify-content: center;
+}
+
+.paragrafos2 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  color: #0f0f0f;
+  list-style: none;
+  font-size: 1.4em;
+  justify-content: center;
+}
+
+.paragrafos3 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  color: #0f0f0f;
+  list-style: none;
+  font-size: 1.2em;
+  justify-content: center;
+}
+
+/* inicio pagina projetos*/
+
+.projetos{
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0f0f0f;
+  position: relative;
+  justify-content: center;
+  grid-template-columns: auto;
+  grid-gap:1px;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+  padding-top: 15px;
+}
+
+.projetos::before {
+  display: grid;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:url("../img/fundo projetos.gif");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.2;
+}
+
+
+/* area quadra 1*/
+.textosprojetos1{
+   padding-left: 130px;
+}
+/* FOTO QUADRA1 */
+#semarituba1{
+  display: flex;
+  width:270px;
+  height:180px; 
+  background-color: #0f13f0;
+  border-radius:50%;
+  box-shadow:  14px 11px #0000008c;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*rodape foto quadra 1*/
+#quadra1{
+  padding-top: 8px;
+  font-size: 1.30em;
+  padding-left: 100px;
+  color: #0f0f0f;
+}
+
+
+/* area quadra 2*/
+.textosprojetos2{
+  display:grid;
+  padding-left: 130px;
+}
+
+/*FOTO QUADRA2 */
+#semarituba2{
+  display: flex;
+  width:270px;
+  height:180px; 
+  background-color: #0f13f0;
+  border-radius:50%;
+  box-shadow:  14px 11px #0000008c;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*rodape foto quadra 2*/
+#quadra2{
+  padding-top: 8px;
+  display: flex;
+  font-size: 1.30em;
+  padding-left: 130px;
+  color: #0f0f0f;
+}
+
+/* AREA   QUADRO 3 */
+.textosprojetos3{
+  display:grid;
+  padding-left: 130px;
+}
+/* foto quadro 3*/
+#semarituba3{
+     display: flex;
+     width:270px;
+     height:180px; 
+     background-color: #0f13f0;
+     border-radius:50%;
+     box-shadow:  6px 10px #0000008c;
+     border-radius: 10px;
+     position: relative;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+/* area 4 */
+.textosprojetos4{
+  display:grid;
+  padding-left: 130px;
+}
+
+/* foto 4 */
+#semarituba4{
+  display: flex;
+  width:270px;
+  height:180px; 
+  background-color: #0f13f0;
+  border-radius:50%;
+  box-shadow:  7px 10px #0000008c;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* area 5 */
+.textosprojetos5{
+  display:grid;
+  padding-left: 130px;
+}
+/* foto 5 */
+#semarituba5{
+     display: flex;
+     width:270px;
+     height: 150px; 
+     background-color: #0f13f0;
+     border-radius:50%;
+     box-shadow:  14px 4px #0000008c;
+     border-radius: 10px;
+     position: relative;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+/* area foto 6 */
+.textosprojetos6{
+  display:grid;
+  padding-left: 130px;
+}
+/* foto 6 */
+#semarituba6{
+  display: flex;
+  width:270px;
+  height:160px; 
+  background-color: #0f13f0;
+  border-radius:50%;
+  box-shadow:  14px 1px #0000008c;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* seção videos */
+
+.videosjl{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.videosjl::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo quadra.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.textovideo{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0f0f0f;
+  justify-content: center;
+}
+
+
+#video{
+  width: 400px;
+  height: 200px;
+}
+
+/*INICIO FOOTER*/
+
+.mapa{
+  display: grid;
+  justify-content: center;
+  padding-top:1%;
+}
+
+
+.rodape {
+  list-style: none;
+  height: 300px;
+  display: grid;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  justify-content: center;
+}
+
+
+.textorodape{
+  text-decoration: underline;
+  padding-top: 1%;
+  font-size: 1.0em;
+  color: rgb(30, 11, 202);
+  justify-content: center;
+}
+
+.fotorodape{
+    left: 80px;
+    display: flex;
+    width: 190px;
+    height: 185px;
+    box-shadow: 16px 14px 20px #0000008c;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotodope{
+  display: flex;
+  width: 95%;
+  height: 95%;
+  justify-content: center;
+  z-index: 1;
+}
+.fotorodape::before{
+  content: "";
+            background-image: conic-gradient(#ff2a0e 20deg,
+                    transparent 120deg);
+            width: 150%;
+            height: 150%;
+            position: absolute;
+            animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(-360deg);
+  }
+}
+/* menu redes sociais*/
+.menurodape {
+  color: rgb(3, 19, 19);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  height: 30px;
+}
+
+/* foto redes sociais*/
+.menurodape img{
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 5px rgb(3, 19, 19);
+  box-sizing: border-box;
+}
+
+.menurodape img:hover{
+  border: 2px solid #d0f309;
+  transform: translate(-7px,-7px);
+  box-shadow: 8px 8px 10px rgb(3, 19, 19);
+  transition: transform 0.5s, border 0.5s;
+}
+
+ /* papel de parede rodape*/
+  .todorodape {
+  background-image:url("../img/boas festas.gif");
+  background-size: 100% 100%;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+ }
+}
  
  /*Pra dispositivos que têm uma largura mínima de 600px pixels.
 10 Tablets, por exemplo */
@@ -3315,8 +4320,8 @@ span:before
   .empresalogo{
       display: flex;
       background-size: auto;
-      width: 179px;
-      height: 159px;
+      width: 102px;
+      height: 98px;
       box-shadow: 16px 14px 20px #0000008c;
       border-radius: 10px;
       position: relative;
@@ -3328,21 +4333,21 @@ span:before
   
   .logo {
     display: flex;
-    width: 170px;
-    height: 150px;
+    width: 95px;
+    height: 90px;
     justify-content: center;
     z-index: 1;
   
   }
   
   .logo-pc {
-    width: 100%;
-    display: flex;
+    display: none;
   }
   
   .logo-mb {
-    display: none;
+    display: flex;
   }
+
   
   .empresalogo::before{
     content: "";
@@ -3603,7 +4608,7 @@ span:before
     justify-content: right;
     margin: 1%;
     color: rgb(244, 247, 95);
-    font-size: 2em;
+    font-size: 1.3em;
     font-family: stencil, fantasy;
     font-weight: bold;
     text-align: center;
@@ -3624,6 +4629,45 @@ span:before
       13px -13px 1px rgba(0, 0, 0, 0.5);
   }
   
+/*inicio video feliz natal*/
+
+.feliznatal{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 2px;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.feliznatal::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo quadra.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.textofeliznatal{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0f0f0f;
+  justify-content: center;
+  font-size: auto;
+}
+
+.feliznatal{
+  width:auto;
+  height:auto;
+}
+
+
   .conteiner-conteudo {
     list-style: none;
     color: #0d0df3;
@@ -3648,7 +4692,7 @@ span:before
   .titulo1 {
     display: grid;
     position: relative;
-    height: 90vh;
+    height: 60vh;
     list-style: none;
     border-width: 8px;
     border-style: double;
@@ -3670,7 +4714,7 @@ span:before
   
   .titulo2{
     position: relative;
-    height: 50vh;
+    height: 45vh;
     list-style: none;
     color: #0d0df3;
     border-width: 8px;
@@ -3693,7 +4737,7 @@ span:before
   
   .titulo3 {
     position: relative;
-    height: 45vh;
+    height: 33vh;
     list-style: none;
     color: #0d0df3;
     border-width: 8px;
@@ -3733,8 +4777,8 @@ span:before
     height: 100%;
     background-image: url("../img/projetos eletricos.gif");
     background-size: 100% 100%;
-    filter: grayscale(100%);
-    opacity: 0.2;
+    filter: grayscale(10%);
+    opacity: 0.4;
     z-index: -1;
   }
   
@@ -3782,8 +4826,8 @@ span:before
     color: #0f0f0f;
     position: relative;
     justify-content: center;
-    grid-template-columns: 2fr 2fr;
-    grid-gap:25px;
+    grid-template-columns: auto;
+    grid-gap:1px;
     border-width: 8px;
     border-style: double;
     Border-color: #100792;
@@ -3796,7 +4840,7 @@ span:before
     position: absolute;
     width: 100%;
     height: 100%;
-    background-image: url("../img/foto\ corpo\ pagprojetos.png");
+    background-image:url("../img/fundo projetos.gif");
     background-size: 100% 100%;
     filter: grayscale(10%);
     opacity: 0.2;
@@ -3809,14 +4853,18 @@ span:before
   }
   /* FOTO QUADRA1 */
   #semarituba1{
-       display: flex;
-       width:150px;
-       height:100px; 
-       border-radius:50%;
-       box-shadow:  14px 11px #0000008c;
-       border-radius: 10px;
-       position: relative;
-       overflow: hidden;
+    display: flex;
+    width:270px;
+    height:180px; 
+    background-color: #0f13f0;
+    border-radius:50%;
+    box-shadow:  14px 11px #0000008c;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   /*rodape foto quadra 1*/
@@ -3871,7 +4919,7 @@ span:before
        height:180px; 
        background-color: #0f13f0;
        border-radius:50%;
-       box-shadow:  14px 20px #0000008c;
+       box-shadow:  6px 10px #0000008c;
        border-radius: 10px;
        position: relative;
        overflow: hidden;
@@ -3892,7 +4940,858 @@ span:before
     height:180px; 
     background-color: #0f13f0;
     border-radius:50%;
-    box-shadow:  14px 20px #0000008c;
+    box-shadow:  7px 10px #0000008c;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* area 5 */
+  .textosprojetos5{
+    display:grid;
+    padding-left: 130px;
+  }
+  /* foto 5 */
+  #semarituba5{
+       display: flex;
+       width:270px;
+       height: 150px; 
+       background-color: #0f13f0;
+       border-radius:50%;
+       box-shadow:  14px 4px #0000008c;
+       border-radius: 10px;
+       position: relative;
+       overflow: hidden;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+  }
+  /* area foto 6 */
+  .textosprojetos6{
+    display:grid;
+    padding-left: 130px;
+  }
+  /* foto 6 */
+  #semarituba6{
+    display: flex;
+    width:270px;
+    height:160px; 
+    background-color: #0f13f0;
+    border-radius:50%;
+    box-shadow:  14px 1px #0000008c;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* seção videos */
+  
+  .videosjl{
+    display: grid;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    border-width: 8px;
+    border-style: double;
+    Border-color: #100792;
+  }
+  
+  .videosjl::before{
+    display: grid;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url("../img/fundo quadra.jpeg");
+    background-size: 100% 100%;
+    filter: grayscale(10%);
+    opacity: 0.3;
+    z-index: -1;
+  }
+  
+  .textovideo{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0f0f0f;
+    justify-content: center;
+  }
+  
+  
+  #video{
+    width: 400px;
+    height: 200px;
+  }
+  
+  /*INICIO FOOTER*/
+  
+  .mapa{
+    display: grid;
+    justify-content: center;
+    padding-top:1%;
+  }
+  
+  
+  .rodape {
+    list-style: none;
+    height: 300px;
+    display: grid;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    justify-content: center;
+  }
+  
+  
+  .textorodape{
+    text-decoration: underline;
+    padding-top: 1%;
+    font-size: 1.0em;
+    color: rgb(30, 11, 202);
+    justify-content: center;
+  }
+  
+  .fotorodape{
+      left: 80px;
+      display: flex;
+      width: 190px;
+      height: 185px;
+      box-shadow: 16px 14px 20px #0000008c;
+      border-radius: 5px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .fotodope{
+    display: flex;
+    width: 95%;
+    height: 95%;
+    justify-content: center;
+    z-index: 1;
+  }
+  .fotorodape::before{
+    content: "";
+              background-image: conic-gradient(#ff2a0e 20deg,
+                      transparent 120deg);
+              width: 150%;
+              height: 150%;
+              position: absolute;
+              animation: rotate 2s linear infinite;
+  }
+  @keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+  
+    100% {
+        transform: rotate(-360deg);
+    }
+  }
+  /* menu redes sociais*/
+  .menurodape {
+    color: rgb(3, 19, 19);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 30px;
+  }
+  
+  /* foto redes sociais*/
+  .menurodape img{
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 5px rgb(3, 19, 19);
+    box-sizing: border-box;
+  }
+  
+  .menurodape img:hover{
+    border: 2px solid #d0f309;
+    transform: translate(-7px,-7px);
+    box-shadow: 8px 8px 10px rgb(3, 19, 19);
+    transition: transform 0.5s, border 0.5s;
+  }
+  
+  /* papel de parede rodape*/
+  .todorodape {
+    background-image:url("../img/boas festas.gif");
+    background-size: 100% 100%;
+    border-width: 8px;
+    border-style: double;
+    Border-color: #100792;
+  }
+}
+
+/*Pra dispositivos que têm uma largura mínima de 540px pixels.
+10 Tablets, por exemplo */
+
+@media(max-width:540px){
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .cabeça {
+    display: grid;
+    max-width: auto;
+    width: auto;
+    height: 215px;
+    margin: auto;
+    
+  }
+  
+  .corpoconteudo {
+    max-width: 1300px;
+    width: auto;
+    height: 215px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .container {
+    background-image: url("../img/header.gif");
+    background-size: 100% 100%;
+    background-position:100% 100%;
+    display: flex;
+    border-width: 5px;
+    border-style: ridge;
+    Border-color: #3a29fa;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .empresalogo{
+      display: flex;
+      background-size: auto;
+      width: 102px;
+      height: 98px;
+      box-shadow: 16px 14px 20px #0000008c;
+      border-radius: 10px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    width: 95px;
+    height: 90px;
+    justify-content: center;
+    z-index: 1;
+  
+  }
+  
+  .logo-pc {
+    display: none;
+  }
+  
+  .logo-mb {
+    display: flex;
+  }
+
+  
+  .empresalogo::before{
+    content: "";
+              background-image: conic-gradient(#ff2a0e 20deg,
+                      transparent 120deg);
+              width: 150%;
+              height: 150%;
+              position: absolute;
+              animation: rotate 4s linear infinite;
+  }
+  @keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+  
+    100% {
+        transform: rotate(-360deg);
+    }
+  }
+  
+  
+    
+  /*nome menu*/
+  
+  /* hamburger */
+  .checkbox {
+    display: none;
+  }
+  
+  .ring
+  {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:138px;
+    height:138px;
+    background:transparent;
+    border:3px solid #3c3c3c;
+    border-radius:50%;
+    text-align:center;
+    line-height:150px;
+    font-family:sans-serif;
+    font-size:18px;
+    color:#0e0b02;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    text-shadow:0 0 10px #0e0d0d;
+    box-shadow:0 0 20px rgba(0,0,0,.5);
+  }
+  .ring:before
+  {
+    content:'';
+    position:absolute;
+    top:-3px;
+    left:-3px;
+    width:100%;
+    height:100%;
+    border:3px solid transparent;
+    border-top:3px solid #fff000;
+    border-right:3px solid #fff000;
+    border-radius:50%;
+    animation:animateC 2s linear infinite;
+  }
+  span
+  {
+    display:block;
+    position:absolute;
+    top:calc(50% - 2px);
+    left:50%;
+    width:50%;
+    height:4px;
+    background:transparent;
+    transform-origin:left;
+    animation:animate 2s linear infinite;
+  }
+  span:before
+  {
+    content:'';
+    position:absolute;
+    width:16px;
+    height:16px;
+    border-radius:50%;
+    background:#fff000;
+    top:-6px;
+    right:-8px;
+    box-shadow:0 0 20px #fff000;
+  }
+  @keyframes animateC
+  {
+    0%
+    {
+      transform:rotate(0deg);
+    }
+    100%
+    {
+      transform:rotate(360deg);
+    }
+  }
+  @keyframes animate
+  {
+    0%
+    {
+      transform:rotate(45deg);
+    }
+    100%
+    {
+      transform:rotate(405deg);
+    }
+  }
+  
+  .button {
+    position: relative;
+    background-image:url("../img/foto\ menu.jpeg");
+    background-size:100% 100%;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    position: fixed;
+    top: 5vh;
+    right: 5vw;
+    z-index: 2000;
+    box-shadow: 0 1rem 3rem black;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .background {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    position: fixed;
+    top: 5.5vh;
+    right: 5.5vw;
+    background-image: radial-gradient(rgb(177, 204, 22), black);
+    z-index: 1000;
+  
+    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  
+  .nav {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -60vw;
+    z-index: 1500;
+    opacity: 0;
+    width: 0;
+    transition: all 0.8s;
+  }
+  
+  .list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .item {
+    margin: 1rem;
+    font-size: 36px;
+  }
+  
+  .link:link,
+  .link:visited {
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 1rem 2rem;
+    color: rgb(238, 61, 16);
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image:url("../img/logo\ sem\ letreiro.png");
+    background-size: 220%;
+    transition: all 0.4s;
+  }
+  
+  .link:hover,
+  .link:active {
+    color: lightgreen;
+    cursor: pointer;
+  }
+  
+  /* functionality */
+  .checkbox:checked~.background {
+    transform: scale(80);
+  }
+  
+  .checkbox:checked~.nav {
+    opacity: 1;
+    width: 100%;
+    right: 0;
+  }
+  
+  /* styling hamb ICON */
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .icon,
+  .icon::before,
+  .icon::after {
+    width: 3rem;
+    height: 2px;
+    background-color: gray;
+    display: inline-block;
+  }
+  
+  .icon::before,
+  .icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    transition: all 0.2s;
+  }
+  
+  .icon::before {
+    top: -0.8rem;
+  }
+  
+  .icon::after {
+    top: 0.8rem;
+  }
+  
+  .button:hover icon:before {
+    top: -1rem;
+  }
+  
+  .button:hover icon::after {
+    top: 1rem;
+  }
+  
+  .checkbox:checked+.button .icon {
+    background-color: transparent;
+  }
+  
+  .checkbox:checked+.button .icon::before {
+    top: 0;
+    transform: rotate(135deg);
+  }
+  
+  .checkbox:checked+.button .icon::after {
+    top: 0;
+    transform: rotate(-135deg);
+  }
+  
+  
+  .empresa {
+    padding-right: 15%;
+    width: 75%;
+    position: relative;
+    justify-content: right;
+    margin: 1%;
+    color: rgb(225, 247, 29);
+    font-size: 1.1em;
+    font-family: stencil, fantasy;
+    font-weight: bold;
+    text-align: center;
+    text-shadow:
+      1px -1px 0 #2f5d87,
+      2px -2px 0 #2e5a83,
+      3px -3px 0 #2d5880,
+      4px -4px 0 #2b557c,
+      5px -5px 0 #2a5378,
+      6px -6px 0 #295074,
+      7px -7px 0 #274d71,
+      8px -8px 0 #264b6d,
+      9px -9px 0 #254869,
+      10px -10px 0 #234665,
+      11px -11px 0 #224361,
+      12px -12px 0 #21405e,
+      13px -13px 12px rgba(0, 0, 0, 0.55),
+      13px -13px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  /*inicio video feliz natal*/
+
+.feliznatal{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 2px;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.feliznatal::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo quadra.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.textofeliznatal{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0f0f0f;
+  justify-content: center;
+}
+
+.feliznatal{
+  width:auto;
+  height:auto;
+}
+
+  .conteiner-conteudo {
+    list-style: none;
+    color: #0d0df3;
+    text-shadow: 1px -1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+  }
+  
+  .conteudo-texto {
+    justify-content: space-around;
+    margin: 5px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 1em;
+  
+  }
+  /* INICIO DOS PARAGRAFOS*/
+  .titulo1 {
+    display: grid;
+    position: relative;
+    height: auto;
+    list-style: none;
+    border-width: 8px;
+    border-style: double;
+    Border-color: #100792;
+  
+  }
+  .titulo1::before {
+    display: grid;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/quem somos.gif");
+    background-size: 100% 100%;
+    filter: grayscale(10%);
+    opacity: 0.4;
+    z-index: -1;
+  }
+  
+  .titulo2{
+    position: relative;
+    height: auto;
+    list-style: none;
+    color: #0d0df3;
+    border-width: 8px;
+    border-style: double;
+    Border-color: #100792;
+  }
+  
+  .titulo2::before {
+    display: grid;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/missão.gif");
+    background-size: 100% 100%;
+    filter: grayscale(10%);
+    opacity: 0.4;
+    z-index: -1;
+  }
+  
+  .titulo3 {
+    position: relative;
+    height: auto;
+    list-style: none;
+    color: #0d0df3;
+    border-width: 8px;
+    border-style: double;
+    Border-color: #100792;
+  }
+  
+  .titulo3::before {
+    display: grid;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/valores.gif");
+    background-size: 100% 100%;
+    filter: grayscale(10%);
+    opacity: 0.4;
+    z-index: -1;
+  }
+  
+  .titulo4 {
+    display: grid;
+    height: auto;
+    position: relative;
+    list-style: none;
+    color: #0d0df3;
+    border-width: 8px;
+    border-style: double;
+    Border-color: #100792;
+  }
+  
+  .titulo4::before {
+    display: grid;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/projetos eletricos.gif");
+    background-size: 100% 100%;
+    filter: grayscale(10%);
+    opacity: 0.4;
+    z-index: -1;
+  }
+  
+  .paragrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: #0f0f0f;
+    list-style: none;
+    font-size: 1.1em;
+    justify-content: center;
+  }
+  
+  .paragafo1 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: #0f0f0f;
+    list-style: none;
+    font-size: 1.3em;
+    justify-content: center;
+  }
+  
+  .paragrafos2 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    color: #0f0f0f;
+    list-style: none;
+    font-size: 1.4em;
+    justify-content: center;
+  }
+  
+  .paragrafos3 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    color: #0f0f0f;
+    list-style: none;
+    font-size: 1.2em;
+    justify-content: center;
+  }
+  
+  /* inicio pagina projetos*/
+  
+  .projetos{
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f0f0f;
+    position: relative;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-gap:1px;
+    border-width: 8px;
+    border-style: double;
+    Border-color: #100792;
+    padding-top: 15px;
+  }
+  
+  .projetos::before {
+    display: grid;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image:url("../img/fundo projetos.gif");
+    background-size: 100% 100%;
+    filter: grayscale(10%);
+    opacity: 0.2;
+  }
+  
+  
+  /* area quadra 1*/
+  .textosprojetos1{
+     padding-left: 130px;
+  }
+  /* FOTO QUADRA1 */
+  #semarituba1{
+    display: flex;
+    width:270px;
+    height:180px; 
+    background-color: #0f13f0;
+    border-radius:50%;
+    box-shadow:  14px 11px #0000008c;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*rodape foto quadra 1*/
+  #quadra1{
+    padding-top: 8px;
+    font-size: 1.30em;
+    padding-left: 100px;
+    color: #0f0f0f;
+  }
+  
+  
+  /* area quadra 2*/
+  .textosprojetos2{
+    display:grid;
+    padding-left: 130px;
+  }
+  
+  /*FOTO QUADRA2 */
+  #semarituba2{
+    display: flex;
+    width:270px;
+    height:180px; 
+    background-color: #0f13f0;
+    border-radius:50%;
+    box-shadow:  14px 11px #0000008c;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /*rodape foto quadra 2*/
+  #quadra2{
+    padding-top: 8px;
+    display: flex;
+    font-size: 1.30em;
+    padding-left: 130px;
+    color: #0f0f0f;
+  }
+  
+  /* AREA   QUADRO 3 */
+  .textosprojetos3{
+    display:grid;
+    padding-left: 130px;
+  }
+  /* foto quadro 3*/
+  #semarituba3{
+       display: flex;
+       width:270px;
+       height:180px; 
+       background-color: #0f13f0;
+       border-radius:50%;
+       box-shadow:  6px 10px #0000008c;
+       border-radius: 10px;
+       position: relative;
+       overflow: hidden;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+  }
+  /* area 4 */
+  .textosprojetos4{
+    display:grid;
+    padding-left: 130px;
+  }
+  
+  /* foto 4 */
+  #semarituba4{
+    display: flex;
+    width:270px;
+    height:180px; 
+    background-color: #0f13f0;
+    border-radius:50%;
+    box-shadow:  7px 10px #0000008c;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
@@ -4351,6 +6250,44 @@ span:before
     6px -6px 0 #21405e,
     7px -7px 7px rgba(0, 0, 0, 0.55),
     7px -7px 1px rgba(0, 0, 0, 0.5);
+}
+
+/*inicio video feliz natal*/
+
+.feliznatal{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 2px;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.feliznatal::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo quadra.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.textofeliznatal{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0f0f0f;
+  justify-content: center;
+  font-size: AUTO;
+}
+
+.feliznatal{
+  width:auto;
+  height:auto;
 }
 
 .conteiner-conteudo {
@@ -5085,6 +7022,44 @@ span:before
       7px -7px 1px rgba(0, 0, 0, 0.5);
   }
   
+  /*inicio video feliz natal*/
+
+.feliznatal{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 2px;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.feliznatal::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo quadra.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.textofeliznatal{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0f0f0f;
+  justify-content: center;
+  font-size: auto;
+}
+
+.feliznatal{
+  width:auto;
+  height:auto;
+}
+
   .conteiner-conteudo {
     list-style: none;
     text-shadow: 1px -1px 1px rgba(0, 0, 0, 0.5);
@@ -5858,6 +7833,44 @@ span:before
       7px -7px 7px rgba(0, 0, 0, 0.55),
       7px -7px 1px rgba(0, 0, 0, 0.5);
   }
+
+  /*inicio video feliz natal*/
+
+.feliznatal{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 2px;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.feliznatal::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo quadra.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.textofeliznatal{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0f0f0f;
+  justify-content: center;
+  font-size: auto;
+}
+
+.feliznatal{
+  width:auto;
+  height:auto;
+}
   
   .conteiner-conteudo {
     list-style: none;
@@ -6635,6 +8648,45 @@ span:before
       7px -7px 7px rgba(0, 0, 0, 0.55),
       7px -7px 1px rgba(0, 0, 0, 0.5);
   }
+
+   /*inicio video feliz natal*/
+
+.feliznatal{
+  display: grid;
+  position: relative;
+  justify-content: center;
+  width: 2px;
+  border-width: 8px;
+  border-style: double;
+  Border-color: #100792;
+}
+
+.feliznatal::before{
+  display: grid;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url("../img/fundo quadra.jpeg");
+  background-size: 100% 100%;
+  filter: grayscale(10%);
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.textofeliznatal{
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  color: #0f0f0f;
+  justify-content: center;
+  font-size: auto;
+}
+
+.feliznatal{
+  width:auto;
+  height:auto;
+}
+
   
   .conteiner-conteudo {
     list-style: none;
