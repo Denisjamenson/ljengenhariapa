@@ -384,10 +384,9 @@ span:before
 }
 
 .feliznatal{
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
 }
-
 
 .conteiner-conteudo {
   list-style: none;
