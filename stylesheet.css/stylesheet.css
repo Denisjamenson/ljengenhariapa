@@ -73,7 +73,7 @@
 
 .empresalogo::before{
   content: "";
-            background-image: conic-gradient(#ff2a0e 20deg,
+            background-image: conic-gradient(#ffdb0e 20deg,
                     transparent 120deg);
             width: 150%;
             height: 150%;
